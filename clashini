@@ -28,12 +28,12 @@ custom_proxy_group=Microsoft`select`[]US`[]DE`[]GB`[]HK`[]JP`[]TR
 custom_proxy_group=PayPal`select`[]US`[]DE`[]GB`[]HK`[]JP`[]TR
 custom_proxy_group=Spotify`select`[]US`[]DE`[]GB`[]HK`[]JP`[]TR
 custom_proxy_group=Fallback`select`.*`[]DIRECT
-custom_proxy_group=US`select`(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$
-custom_proxy_group=DE`select`(?=.*(德|德国|(?i)Germany))^((?!(日|韩|美)).)*$
-custom_proxy_group=GB`select`(?=.*(英|GB|(?i)Kingdom|Britain))^((?!(港|台|日|韩|新|美”)).)*$
-custom_proxy_group=HK`select`(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|美|阿|德|游戏|澳|GAME)).)*$
-custom_proxy_group=JP`select`(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$
-custom_proxy_group=TR`select`(?=.*(土|土耳其|(?i)Turkey))^((?!(港|台|韩|新|美)).)*$
+custom_proxy_group=US`Urltest`(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$
+custom_proxy_group=DE`Urltest`(?=.*(德|德国|(?i)Germany))^((?!(日|韩|美)).)*$
+custom_proxy_group=GB`Urltest`(?=.*(英|GB|(?i)Kingdom|Britain))^((?!(港|台|日|韩|新|美”)).)*$
+custom_proxy_group=HK`Urltest`(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|美|阿|德|游戏|澳|GAME)).)*$
+custom_proxy_group=JP`Urltest`(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$
+custom_proxy_group=TR`Urltest`(?=.*(土|土耳其|(?i)Turkey))^((?!(港|台|韩|新|美)).)*$
 
 enable_rule_generator=true
 overwrite_original_rules=true
