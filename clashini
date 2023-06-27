@@ -11,9 +11,10 @@ ruleset=Facebook,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/
 ruleset=Whatsapp,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Whatsapp/Whatsapp.list
 ruleset=PayPal,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PayPal/PayPal.list
 ruleset=Spotify,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Spotify/Spotify.list
+ruleset=Github,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GitHub/GitHub.list
 ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list
 ruleset=DIRECT,GEOIP,CN
-ruleset=Fallback,Proxies
+ruleset=Fallback,[]Proxies
 
 custom_proxy_group=Proxies`select`(.*)
 custom_proxy_group=Apple`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
