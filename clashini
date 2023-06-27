@@ -13,7 +13,7 @@ ruleset=PayPal,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ma
 ruleset=Spotify,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Spotify/Spotify.list
 ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list
 ruleset=DIRECT,GEOIP,CN
-ruleset=Fallback,FINAL
+ruleset=Proxy,FINAL
 
 custom_proxy_group=Proxy`select`(.*)
 custom_proxy_group=Apple`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
