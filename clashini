@@ -15,6 +15,7 @@ ruleset=DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ma
 ruleset=DIRECT,GEOIP,CN
 ruleset=Fallback,FINAL
 
+custom_proxy_group=Proxy`url-test`.*
 custom_proxy_group=Apple`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
 custom_proxy_group=Google`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
 custom_proxy_group=GoogleVoice`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
