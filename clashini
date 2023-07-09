@@ -1,5 +1,6 @@
 [custom]
 
+ruleset=Speedtest,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.list
 ruleset=Apple,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list
 ruleset=Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list
 ruleset=GoogleVoice,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GoogleVoice/GoogleVoice.list
@@ -16,25 +17,28 @@ ruleset=DIRECT,GEOIP,CN
 ruleset=Fallback,[]FINAL
 
 custom_proxy_group=Proxy`select`(.*)
+custom_proxy_group=Auto`url-test`.*`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=Fallback`select`[]Proxy
-custom_proxy_group=Apple`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
-custom_proxy_group=Google`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
-custom_proxy_group=GoogleVoice`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
-custom_proxy_group=YouTube`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
-custom_proxy_group=OpenAI`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
-custom_proxy_group=Twitter`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
-custom_proxy_group=Telegram`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
-custom_proxy_group=Facebook`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
-custom_proxy_group=Whatsapp`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
-custom_proxy_group=Microsoft`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
-custom_proxy_group=PayPal`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
-custom_proxy_group=Spotify`select`[]美國`[]德國`[]英國`[]香港`[]日本`[]土耳其
-custom_proxy_group=美國`select`(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$
-custom_proxy_group=德國`select`(?=.*(德|德国|(?i)Germany))^((?!(日|韩|美)).)*$
-custom_proxy_group=英國`select`(?=.*(英|GB|(?i)Kingdom|Britain))^((?!(港|台|日|韩|新|美”)).)*$
-custom_proxy_group=香港`select`(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|美|阿|德|游戏|澳|GAME)).)*$
-custom_proxy_group=日本`select`(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$
-custom_proxy_group=土耳其`select`(?=.*(土|土耳其|(?i)Turkey))^((?!(港|台|韩|新|美)).)*$
+custom_proxy_group=Speedtest`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇹🇼台灣節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=Apple`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇹🇼台灣節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=Google`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=GoogleVoice`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=YouTube`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=OpenAI`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=Twitter`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=Telegram`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=Facebook`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=Whatsapp`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=Microsoft`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=PayPal`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=Spotify`select`[]🇺🇸美國節點`[]🇩🇪德國節點`[]🇬🇧英國節點`[]🇭🇰香港節點`[]🇯🇵日本節點`[]🇹🇷土耳其節點
+custom_proxy_group=🇺🇸美國節點`url-test`(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇩🇪德國節點`url-test`(?=.*(德|德国|(?i)Germany))^((?!(日|韩|美)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇬🇧英國節點`url-test`(?=.*(英|GB|(?i)Kingdom|Britain))^((?!(港|台|日|韩|新|美”)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇭🇰香港節點`url-test`(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|美|阿|德|游戏|澳|GAME)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇹🇼台灣節點`url-test`(?=.*(台|TW|(?i)Tai))^((?!(港|日|韩|新|美|阿|德|游戏|澳|GAME)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇯🇵日本節點`url-test`(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇹🇷土耳其節點`url-test`(?=.*(土|土耳其|(?i)Turkey))^((?!(港|台|韩|新|美)).)*$`http://www.gstatic.com/generate_204`300,,50
 
 enable_rule_generator=true
 overwrite_original_rules=true
