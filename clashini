@@ -39,7 +39,7 @@ custom_proxy_group=🇭🇰香港節點`url-test`(?=.*(港|HK|(?i)香港|香))^(
 custom_proxy_group=🇹🇼台灣節點`url-test`(?=.*(台|TW|(?i)台|台湾))^((?!(港|美|日|韩|新)).)*$`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇸🇬獅城節點`url-test`(?=.*(新|US|(?i)獅城|狮城))^((?!(港|台|日|韩|美)).)*$`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇯🇵日本節點`url-test`(?=.*(日|JP|(?i)日本))^((?!(港|台|美|韩|新)).)*$`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇹🇷突厥節點`url-test`(?=.*(土|TK|(?i)土耳其))^((?!(港|台|日|韩|新)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇹🇷突厥節點`url-test`(?=.*(突|TK|(?i)突厥))^((?!(港|台|日|韩|新)).)*$`http://www.gstatic.com/generate_204`300,,50
 
 enable_rule_generator=true
 overwrite_original_rules=true
