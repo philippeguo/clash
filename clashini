@@ -35,12 +35,12 @@ ruleset=🇭🇰香港,[]GEOIP,HK
 ruleset=🇹🇼台灣,[]GEOIP,TW
 ruleset=🇸🇬獅城,[]GEOIP,SG
 ruleset=🇯🇵日本,[]GEOIP,JP
-ruleset=🐟兜底,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-ruleset=🐟兜底,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+ruleset=🐟兜底,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyMedia.list
+ruleset=🐟兜底,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyGFWlist.list
 ruleset=🇨🇳大陸,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/China/China_Classical.list
 ruleset=🇨🇳大陸,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Inside.list
 ruleset=🇨🇳大陸,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Lan/Lan.list
-ruleset=🇨🇳大陸,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=🇨🇳大陸,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/UnBan.list
 ruleset=🐟兜底,[]FINAL
 ;设置规则标志位
 
