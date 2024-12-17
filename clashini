@@ -20,6 +20,14 @@ ruleset=WeChat,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ma
 ruleset=GitHub,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list
 ruleset=PayPal,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal.list
 ruleset=Spotify,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list
+ruleset=🇺🇸美國,GEOIP,US
+ruleset=🇪🇺歐洲,GEOIP,FR
+ruleset=🇪🇺歐洲,GEOIP,DE
+ruleset=🇪🇺歐洲,GEOIP,GB
+ruleset=🇭🇰香港,GEOIP,HK
+ruleset=🇹🇼台灣,GEOIP,TW
+ruleset=🇸🇬獅城,GEOIP,SG
+ruleset=🇯🇵日本,GEOIP,JP
 ruleset=🇨🇳大陸,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.list
 ruleset=🇨🇳大陸,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Inside.list
 ruleset=🇨🇳大陸,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.list
@@ -52,7 +60,7 @@ custom_proxy_group=🇺🇸美國`url-test`(?=.*(美|US|(?i)States|American))^((
 custom_proxy_group=🇪🇺歐洲`url-test`(?=.*(德|DE|(?i)德|德国|英|EN|(?i)英國|英国|法國|法国|FR|fr|爱沙尼亚|乌克兰))^((?!(港|台|日|韩|新)).)*$`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇭🇰香港`url-test`(?=.*(港|HK|(?i)香港|香))^((?!(美|台|日|韩|新)).)*$`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇹🇼台灣`url-test`(?=.*(台|TW|(?i)台|台湾))^((?!(港|美|日|韩|新)).)*$`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🇸🇬獅城`url-test`(?=.*(新|US|(?i)獅城|狮城))^((?!(港|台|日|韩|美)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇸🇬獅城`url-test`(?=.*(新|SG|(?i)獅城|狮城))^((?!(港|台|日|韩|美)).)*$`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇯🇵日本`url-test`(?=.*(日|JP|(?i)日本))^((?!(港|台|美|韩|新)).)*$`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇨🇳大陸`select`[]DIRECT`[]🚀手動`[]♻️自動
 custom_proxy_group=⛔️袪廣告`select`[]REJECT`[]DIRECT
