@@ -1,5 +1,6 @@
 [custom]
 
+;设置规则标志位
 ruleset=⛔️袪廣告,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising.list
 ruleset=⛔️袪廣告,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Domain.list
 ruleset=Speedtest,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.list
@@ -20,20 +21,22 @@ ruleset=WeChat,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ma
 ruleset=GitHub,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list
 ruleset=PayPal,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal.list
 ruleset=Spotify,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list
-ruleset=GEOIP,US,🇺🇸美國
-ruleset=GEOIP,FR,🇪🇺歐洲
-ruleset=GEOIP,DE,🇪🇺歐洲
-ruleset=GEOIP,GB,🇪🇺歐洲
-ruleset=GEOIP,HK,🇭🇰香港
-ruleset=GEOIP,TW,🇹🇼台灣
-ruleset=GEOIP,SG,🇸🇬獅城
-ruleset=GEOIP,JP,🇯🇵日本
+ruleset=🇺🇸美國,[]GEOIP,US
+ruleset=🇪🇺歐洲,[]GEOIP,FR
+ruleset=🇪🇺歐洲,[]GEOIP,DE
+ruleset=🇪🇺歐洲,[]GEOIP,GB
+ruleset=🇭🇰香港,[]GEOIP,HK
+ruleset=🇹🇼台灣,[]GEOIP,TW
+ruleset=🇸🇬獅城,[]GEOIP,SG
+ruleset=🇯🇵日本,[]GEOIP,JP
 ruleset=🇨🇳大陸,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.list
 ruleset=🇨🇳大陸,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Inside.list
 ruleset=🇨🇳大陸,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.list
 ruleset=🇨🇳大陸,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=🐟兜底,[]FINAL
+;设置规则标志位
 
+;设置分组标志位
 custom_proxy_group=🚀手動`select`.*
 custom_proxy_group=♻️自動`url-test`.*`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=Speedtest`select`[]DIRECT`[]🇺🇸美國`[]🇪🇺歐洲`[]🇭🇰香港`[]🇹🇼台灣`[]🇸🇬獅城`[]🇯🇵日本
@@ -64,6 +67,7 @@ custom_proxy_group=🇸🇬獅城`url-test`(?=.*(新|SG|(?i)獅城|狮城))^((?!
 custom_proxy_group=🇯🇵日本`url-test`(?=.*(日|JP|(?i)日本))^((?!(港|台|美|韩|新)).)*$`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇨🇳大陸`select`[]DIRECT`[]🚀手動`[]♻️自動
 custom_proxy_group=⛔️袪廣告`select`[]REJECT`[]DIRECT
+;设置分组标志位
 
 enable_rule_generator=true
 overwrite_original_rules=true
